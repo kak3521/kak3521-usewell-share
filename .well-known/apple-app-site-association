@@ -1,0 +1,10 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["76N7FMJZFZ.com.usewell.app"],
+        "components": [{ "/": "/recipe*", "comment": "A recipe sent with UseWell" }]
+      }
+    ]
+  }
+}

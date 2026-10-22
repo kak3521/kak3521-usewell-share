@@ -1,0 +1,10 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.usewell.app",
+      "sha256_cert_fingerprints": ["F2:33:48:59:32:CA:1E:AA:65:24:F0:0F:B4:33:C6:27:35:35:67:DE:B0:8B:D9:04:20:FA:86:01:D4:68:E0:69"]
+    }
+  }
+]

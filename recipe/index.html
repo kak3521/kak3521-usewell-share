@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A recipe from UseWell</title>
+<style>
+  body { margin: 0; font-family: -apple-system, system-ui, sans-serif; background: #F3F2ED; color: #1f2a1f; }
+  main { max-width: 420px; margin: 0 auto; padding: 48px 20px; text-align: center; }
+  h1 { font-size: 24px; margin: 0 0 12px; }
+  p { font-size: 16px; line-height: 1.5; color: #4a544a; }
+  a.button { display: block; margin: 24px 0 12px; padding: 14px; border-radius: 12px; background: #2f5d3a; color: #fff; font-weight: 700; text-decoration: none; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Someone sent you a recipe</h1>
+  <p>The whole recipe is in the message you got, so you can read it there.</p>
+  <a class="button" id="open" href="usewell://recipe">Open in UseWell</a>
+  <p>Don't have UseWell yet? It's coming soon to the App Store and Google Play.</p>
+</main>
+<script>
+  var code = (new URLSearchParams(location.search).get('code') || '').toUpperCase().replace(/[^A-Z0-9]/g, '');
+  var open = document.getElementById('open');
+  if (code.length === 6) open.href = 'usewell://recipe?code=' + code;
+  else open.style.display = 'none';
+</script>
+</body>
+</html>
