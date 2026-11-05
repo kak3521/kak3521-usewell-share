@@ -4,7 +4,12 @@
     "target": {
       "namespace": "android_app",
       "package_name": "com.usewell.app",
-      "sha256_cert_fingerprints": ["F2:33:48:59:32:CA:1E:AA:65:24:F0:0F:B4:33:C6:27:35:35:67:DE:B0:8B:D9:04:20:FA:86:01:D4:68:E0:69"]
+      "sha256_cert_fingerprints": [
+        "F2:33:48:59:32:CA:1E:AA:65:24:F0:0F:B4:33:C6:27:35:35:67:DE:B0:8B:D9:04:20:FA:86:01:D4:68:E0:69",
+        "AB:8B:C9:D3:78:37:2B:0A:52:E7:69:C5:89:3D:66:7B:BD:FD:01:48:0D:6D:CE:E1:E6:78:F0:A7:23:38:28:2F",
+        "DA:27:22:08:95:A8:CE:49:01:B0:34:88:89:08:6C:BF:69:98:13:E8:5A:D8:BB:93:8C:A6:BF:B5:0B:F5:D0:74",
+        "7E:B8:2C:F6:03:F9:53:78:FD:D8:6C:4D:F2:09:46:92:A8:0A:59:99:A8:95:B8:EE:50:BD:38:70:8B:E6:7D:46"
+      ]
     }
   }
 ]
